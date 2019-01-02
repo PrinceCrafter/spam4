@@ -1,6 +1,6 @@
 ﻿﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "4";
 
 client.on('ready', () => {
      client.user.setActivity("I Love PrinceCrafter",{type: 'WATCHING'})
@@ -8,8 +8,8 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "509450326923804682"; // ايدي السررفر
-var channel = "509450326923804686";//ايدي الروم
+var server = "530002635584045079"; // ايدي السررفر
+var channel = "530002721710014474";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },305);
